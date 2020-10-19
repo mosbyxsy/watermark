@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>水印</title>
+    <style type="text/css">
+        html, body, .page {padding: 0; margin: 0;height: 100%; position: relative;}
+        .header {height: 60px; text-align: center; line-height: 60px; font-size: 24px}
+        .main {position: absolute; left: 0; top: 60px; border: 60px; right: 0}
+        .footer {position: absolute; left: 0; bottom: 0; right: 0; line-height: 60px; height: 60px; text-align: center;}
+
+        .canvas {border: solid 1px black;}
+    </style>
+</head>
+<body>
+    <div class="page">
+        <header class="header">这是头部</header>
+        <main class="main">
+            <span>这是中间内容</span>
+            <!--<canvas height="400" width="400" class="canvas" id="canvas"></canvas>-->
+        </main>
+        <footer class="footer">这是尾部</footer>
+    </div>
+    <script type="application/javascript" src="index2.js"></script>
+</body>
+</html>
